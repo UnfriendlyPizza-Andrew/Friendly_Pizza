@@ -1,10 +1,8 @@
 package org.firstinspires.ftc.teamcode.examples.JavaTheBot;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import java.lang.Math.*;
 @Autonomous(name="JavaTheBotAutonomous")
 
 public class JavaTheBotAutonomous extends LinearOpMode {
@@ -22,20 +20,7 @@ public class JavaTheBotAutonomous extends LinearOpMode {
         right = hardwareMap.dcMotor.get("RightMotor");
 
         waitForStart();
-//
-//        left.setPower(1);
-//        right.setPower(1);
-//        sleep(1333);
 
-//        left.setPower(-1);
-//        right.setPower(1);
-//        sleep(2000);
-//
-//        left.setPower(1);
-//        right.setPower(1);
-//        sleep(2000);
-//
-//
         moveForward(12);
 
         sleep(3000);
